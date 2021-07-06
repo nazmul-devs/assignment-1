@@ -84,16 +84,75 @@
     display: flex;
     justify-content: center;
 }
+.box h2, p{
+   margin: 20px 0;
+   text-align: justify;
+}
+
+.box a{
+    float: right;
+    color: gray;
+}
 .box-1, .box-2, .box-3{
     width: 400px;
     box-shadow: 2px 2px 15px gray;
     border-radius: 25px;
     margin: 30px;
+    padding: 20px;
 }
 .box img{
     width: 320px;
     height: 220px;
     background-size: cover;
-    border-radius: 40px;
-    padding: 20px;
+    border-radius: 25px;
+}
+.follower{
+    display: flex;
+    width: 80%;
+    height: 200px;
+    box-shadow: 1px 1px 8px gray;
+    align-items: center;
+    justify-content: space-around;
+    margin: 40px auto;
+    border-radius: 10px;
+}
+.follower h1{
+    font-weight: bolder;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.follower h3{
+    color: #252525d2;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+
+/* ================footer section===================== */
+footer{
+    background: #020118;
+    
+}
+footer h1{
+    color: gray;
+    font-size: 30px;
+    padding: 15px 0;
+    text-align: center;
+
+    
+}
+footer h1 span{
+    color: blue;
+}
+footer p:nth-child(2){
+    color: #9e9ecc;
+    font-size: 16px;
+    text-align: center;
+
+}
+footer p:nth-child(3){
+    color: #303030;
+    font-size: 14px;
+    text-align: center;
+padding: 10px;
 }
