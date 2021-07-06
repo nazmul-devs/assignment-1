@@ -91,6 +91,7 @@ header .container h3{
 }
 .about-img img{
     height: 80vh;
+    margin-bottom: -100px;
 }
 
 /* ===============our recipies section======================= */
