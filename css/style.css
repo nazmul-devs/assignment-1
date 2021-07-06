@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+.header{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: url(../images/images\ \(1\).png) no-repeat left;
+    
+}
+
+.right-image , .about-img .text-area{
+    width: 40%;
+}
+.right-image img {
+    width: 500px;
+    padding-right: 40px;
+}
+.text-area{
+    margin-left: 8%;
+}
+.text-area h1 span{
+    color: blue;
+}
+.text-area h1{
+    font-size: 50px;
+    color: #272727;
+    margin-bottom: 30px;
+}
+.text-area p{
+    font-size: 18px;
+    text-align: justify;
+    padding-right: 25%;
+    margin-bottom: 40px;
+}
+.btn{
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    background:linear-gradient(to right, blue, #5f14e9b7);
+}
+.btn a{
+    color: #fff;
+
+}
+.about{
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    background: url(../images/Frame\ 56.jpg) no-repeat center;
+    background-size: cover;
+    
+}
+.about-img img{
+    height: 80vh;
+}
+.recipies {
+    margin: 30px 20%;
+}
+.recipies h1{
+    font-size: 40px;
+    font-weight: 300px;
+    text-align: center;
+
+    color: #1d1d1dc2;
+    padding: 30px;
+}
+.recipies h3{
+    font-size: 18px;
+    font-weight: 300px;
+    text-align: center;
+
+    color: #1d1d1dc2;
+}
+
+
+/* ========box=========== */
+.box{
+    display: flex;
+    justify-content: center;
+}
+.box-1, .box-2, .box-3{
+    width: 400px;
+    box-shadow: 2px 2px 15px gray;
+    border-radius: 25px;
+    margin: 30px;
+}
+.box img{
+    width: 320px;
+    height: 220px;
+    background-size: cover;
+    border-radius: 40px;
+    padding: 20px;
+}
