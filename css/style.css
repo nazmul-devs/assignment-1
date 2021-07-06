@@ -1,14 +1,18 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
-    text-decoration: none;
+    font-family: 'Mitr', sans-serif;
+        text-decoration: none;
 }
 /* =========extra aria=========== */
 header .container{
     background: url(../images/bg.png) no-repeat center;
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+.container .photo-area{
+    margin-top: 45px;
 }
 header .container h1{
     color: blue;
@@ -28,7 +32,7 @@ header .container h3{
 
 
 
-
+/* ============main area=========================== */
 
 
 .header{
@@ -75,6 +79,8 @@ header .container h3{
     color: #fff;
 
 }
+
+/* ===============about resturent========================== */
 .about{
     height: 95vh;
     display: flex;
@@ -86,6 +92,8 @@ header .container h3{
 .about-img img{
     height: 80vh;
 }
+
+/* ===============our recipies section======================= */
 .recipies {
     margin: 30px 20%;
 }
@@ -133,6 +141,8 @@ header .container h3{
     background-size: cover;
     border-radius: 25px;
 }
+
+/* =============follower section======================= */
 .follower{
     display: flex;
     width: 80%;
@@ -158,12 +168,13 @@ header .container h3{
 /* ================footer section===================== */
 footer{
     background: #020118;
+    height: 200px;
     
 }
 footer h1{
     color: gray;
     font-size: 30px;
-    padding: 15px 0;
+    padding: 30px 0;
     text-align: center;
 
     
